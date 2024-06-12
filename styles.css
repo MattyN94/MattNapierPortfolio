@@ -1,1 +1,113 @@
+/* General Styles */
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #333333;
+    background-color: #f2f9f2;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #d7f0d7;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #bfe7bf;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #a5dca5;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #e8f5e8;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #a5dca5;
+    border: none;
+    color: #333333;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8cc88c;
+}
+
+footer {
+    background-color: #d7f0d7;
+    padding: 10px;
+    text-align: center;
+    color: #555555;
+}
+
+/* Montserrat Styles */
+.montserrat-unique-header, .montserrat-unique-section, .montserrat-unique-footer {
+    font-family: "Montserrat", sans-serif;
+}
+
+.montserrat-unique-title {
+    font-weight: 700;
+}
+
+.montserrat-unique-subtitle {
+    font-weight: 400;
+}
+
+.montserrat-unique-nav, .montserrat-unique-nav-link {
+    font-weight: 600;
+}
+
+.montserrat-unique-heading {
+    font-weight: 700;
+}
+
+.montserrat-unique-subheading {
+    font-weight: 600;
+}
+
+.montserrat-unique-paragraph {
+    font-weight: 400;
+}
+
+.montserrat-unique-form, .montserrat-unique-label, .montserrat-unique-input, .montserrat-unique-textarea, .montserrat-unique-button, .montserrat-unique-link {
+    font-weight: 400;
+}
