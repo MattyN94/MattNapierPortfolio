@@ -111,3 +111,8 @@ footer {
 .montserrat-unique-form, .montserrat-unique-label, .montserrat-unique-input, .montserrat-unique-textarea, .montserrat-unique-button, .montserrat-unique-link {
     font-weight: 400;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
